@@ -7,12 +7,12 @@ The script relies on the following dependencies:
 
 - LibreOffice for DOCX to PDF conversion
 - Pillow (PIL) for image format conversions
-##Requirements
+## Requirements
 1. Python 3.x
 2. LibreOffice (for DOCX to PDF conversion)
 3. Pillow library for image handling
-##Installation
-#Step 1: Install LibreOffice
+## Installation
+# Step 1: Install LibreOffice
 If LibreOffice is not already installed, you can install it with the following command:
 
 ```
@@ -20,18 +20,18 @@ If LibreOffice is not already installed, you can install it with the following c
 sudo apt update
 sudo apt install libreoffice
 ```
-#Step 2: Install Python Libraries
+# Step 2: Install Python Libraries
 Install Pillow via pip:
 
 ```
 pip install pillow
 ```
 
-##Usage
-#Running the Script
+## Usage
+# Running the Script
 Place the script and the files you want to convert in the same directory, or specify the full paths. The script accepts file paths and performs conversions based on the specified format.
 
-#Example Usage
+# Example Usage
 1. Convert Image Files
 
 To convert an image to another format, specify the input file and the desired output format (PNG, JPG, or WEBP):
@@ -51,8 +51,8 @@ python3 ./multi-converter.py -pdf "a.docx"
 ```
 
 
-##Troubleshooting
+## Troubleshooting
 LibreOffice conversion issues: If DOCX to PDF conversion fails, make sure LibreOffice is installed correctly and accessible from the command line.
 Permission issues: Ensure you have permission to read the input files and write to the output directory.
-##License
+## License
 This project is open-source and licensed under the MIT License.
