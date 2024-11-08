@@ -15,13 +15,17 @@ The script relies on the following dependencies:
 #Step 1: Install LibreOffice
 If LibreOffice is not already installed, you can install it with the following command:
 
-```# For Debian/Ubuntu-based systems
+```
+# For Debian/Ubuntu-based systems
 sudo apt update
-sudo apt install libreoffice```
+sudo apt install libreoffice
+```
 #Step 2: Install Python Libraries
 Install Pillow via pip:
 
-```pip install pillow```
+```
+pip install pillow
+```
 
 ##Usage
 #Running the Script
@@ -34,13 +38,17 @@ To convert an image to another format, specify the input file and the desired ou
 
 
 # Convert an image to PNG
-```python3 ./multi-converter.py -png "image.jpg"```
+```
+python3 ./multi-converter.py -png "image.jpg"
+```
 
 2. Convert DOCX to PDF
 
 To convert a DOCX file to PDF, specify the DOCX file as the input. The script will generate a PDF in the specified output directory.
 
-```python3 ./multi-converter.py -pdf "a.docx"```
+```
+python3 ./multi-converter.py -pdf "a.docx"
+```
 
 
 ##Troubleshooting
